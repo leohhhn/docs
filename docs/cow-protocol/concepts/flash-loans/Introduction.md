@@ -11,14 +11,14 @@ Flash loans allow anyone with access to the blockchain to borrow assets without 
 Flash loans are standardized in [EIP-3156](https://eips.ethereum.org/EIPS/eip-3156), but not all providers follow this EIP. Many smart contracts that hold significant amounts of funds allow users to draw on them in flash loans:
 
 | Protocol                | Fee Percentage | ERC-3156 Compliant | Documentation Link                                                                                                   |
-|-------------------------|----------------|--------------------|----------------------------------------------------------------------------------------------------------------------|
-| **Aave V3**             | 0.5%*          | No                 | [Aave Flash Loans](https://aave.com/docs/developers/flash-loans)                                                     |
+| ----------------------- | -------------- | ------------------ | -------------------------------------------------------------------------------------------------------------------- |
+| **Aave V3**             | 0.5%\*         | No                 | [Aave Flash Loans](https://aave.com/docs/developers/flash-loans)                                                     |
 | **Uniswap (FlashSwap)** | swap fee       | No                 | [Uniswap V3 Overview](https://docs.uniswap.org/contracts/v3/guides/flash-integrations/inheritance-constructors)      |
 | **Balancer V3**         | 0%             | No                 | [Balancer Flash Loans](https://docs.balancer.fi/concepts/vault/flash-loans.html)                                     |
 | **MakerDAO**            | 0%             | Yes                | [MakerDAO DSS Flash](https://docs.makerdao.com/smart-contract-modules/flash-mint-module)                             |
 | **Euler**               | 0%             | Yes (via adapter)  | [Euler Flash Loans](https://docs-v1.euler.finance/developers/getting-started/integration-guide#eip-3156-flash-loans) |
 
-* this fee could be potentially disabled
+\*this fee could be potentially disabled
 
 # Key features
 
@@ -29,4 +29,4 @@ Flash loans are standardized in [EIP-3156](https://eips.ethereum.org/EIPS/eip-31
 
 ## Getting started
 
-Want to place a flash loan order? Check out our flash loan tutorial. 
+Want to place a flash loan order? Check out our flash loan tutorial.
